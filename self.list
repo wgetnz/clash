@@ -1,2 +1,4 @@
 # NAME: PikPak
 DOMAIN-SUFFIX,access.mypikpak.com
+# NAME: tailscaled
+DOMAIN-SUFFIX,tailscaled.com,DIRECT
