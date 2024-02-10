@@ -1,11 +1,6 @@
 # NAME: PikPak
 DOMAIN-SUFFIX,access.mypikpak.com
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,bing.cn
 DOMAIN-SUFFIX,synology.com
 DOMAIN-SUFFIX,synology.cn
 DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,fly.io
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,discordapp.net
-DOMAIN-SUFFIX,www.recaptcha.net
