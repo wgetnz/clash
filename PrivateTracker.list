@@ -1,3 +1,12 @@
+# NAME: PrivateTracker
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-04-21 02:12:21
+# DOMAIN: 140
+# DOMAIN-KEYWORD: 4
+# DOMAIN-SUFFIX: 122
+# IP-CIDR: 4
+# TOTAL: 270
 DOMAIN,1337.abcvg.info
 DOMAIN,1c.premierzal.ru
 DOMAIN,6ahddutb1ucc3cp.ru
