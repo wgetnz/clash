@@ -14,5 +14,10 @@ DOMAIN-SUFFIX,access.pikpak.me
 DOMAIN-SUFFIX,access.mypikpak.net
 DOMAIN-SUFFIX,access.pikpakdrive.com
 DOMAIN-SUFFIX,access.mypikpak.com
+
+
 DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,proactivebackend-pa.googleapis.com
