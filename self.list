@@ -14,4 +14,4 @@ DOMAIN-SUFFIX,access.pikpak.me
 DOMAIN-SUFFIX,access.mypikpak.net
 DOMAIN-SUFFIX,access.pikpakdrive.com
 DOMAIN-SUFFIX,access.mypikpak.com
-ip-cidr,14.154.197.20/32
+DOMAIN-SUFFIX,tunnel.redteam.club
