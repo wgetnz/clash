@@ -1,5 +1,19 @@
 # 集成限制区域访问的AI网站，建议分流到美国节点
-
+DOMAIN,bard.google.com
+DOMAIN,gemini.google.com
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,alkalimetricsink-pa.clients6.google.com
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,pay.openai.com
 DOMAIN-SUFFIX,chat.openai.com
@@ -11,54 +25,39 @@ DOMAIN-SUFFIX,chatgpt.com
 
 DOMAIN-SUFFIX,hcaptcha.com
 DOMAIN-SUFFIX,recaptcha.net
-
 DOMAIN-SUFFIX,sfx.ms
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
-
 # Add ai.com
 DOMAIN-SUFFIX,ai.com
 # Add stripe.com
 DOMAIN-SUFFIX,invoice.stripe.com
 DOMAIN-SUFFIX,stripe.com
-
 # Add Bing and Bard
-DOMAIN,bard.google.com
 DOMAIN-SUFFIX,bing.com
-
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,identrust.com
 DOMAIN,openaiapi-site.azureedge.net
-
 # Add poe.com
 DOMAIN-SUFFIX,poe.com
-
 # Add Anthropic
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
-
 # Add Gemini
 DOMAIN,ai.google.dev
-DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,makersuite.google.com
 DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,apis.google.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
-
 # Add Grok
 DOMAIN-SUFFIX,intercom.io	
 DOMAIN-SUFFIX,twitter.com	
 DOMAIN-SUFFIX,x.ai	
-
 # 尝试加入geosite的大包围
 geosite,category-ai-chat-!cn
 geostie,category-ai-!cn
