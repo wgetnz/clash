@@ -1,4 +1,4 @@
-# 集成限制区域访问的AI网站，建议分流到美国节点
+# Google AI 相关
 DOMAIN,bard.google.com
 DOMAIN,gemini.google.com
 DOMAIN,alkalicore-pa.clients6.google.com
@@ -13,51 +13,81 @@ DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,groq.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,pay.openai.com
-DOMAIN-SUFFIX,chat.openai.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,auth0.openai.com
-DOMAIN-SUFFIX,platform.openai.com
-DOMAIN-SUFFIX,chatgpt.com
-
-DOMAIN-SUFFIX,hcaptcha.com
-DOMAIN-SUFFIX,recaptcha.net
-DOMAIN-SUFFIX,sfx.ms
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-# Add ai.com
-DOMAIN-SUFFIX,ai.com
-# Add stripe.com
-DOMAIN-SUFFIX,invoice.stripe.com
-DOMAIN-SUFFIX,stripe.com
-# Add Bing and Bard
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,identrust.com
-DOMAIN,openaiapi-site.azureedge.net
-# Add poe.com
-DOMAIN-SUFFIX,poe.com
-# Add Anthropic
-DOMAIN,servd-anthropic-website.b-cdn.net
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-# Add Gemini
-DOMAIN,ai.google.dev
-DOMAIN,makersuite.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,apis.google.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
-# Add Grok
-DOMAIN-SUFFIX,intercom.io	
-DOMAIN-SUFFIX,twitter.com	
-DOMAIN-SUFFIX,x.ai	
-# 尝试加入geosite的大包围
+
+# OpenAI 相关
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,pay.openai.com
+DOMAIN-SUFFIX,chat.openai.com
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,auth0.openai.com
+DOMAIN-SUFFIX,platform.openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN-KEYWORD,openai
+
+# 验证服务
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,recaptcha.net
+
+# 支付相关
+DOMAIN-SUFFIX,invoice.stripe.com
+DOMAIN-SUFFIX,stripe.com
+
+# Microsoft 相关
+DOMAIN-SUFFIX,sfx.ms
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,bing.com
+DOMAIN,sydney.bing.com
+DOMAIN-SUFFIX,ai.azure.com
+DOMAIN-SUFFIX,copilot.cloud.microsoft
+DOMAIN-SUFFIX,copilot.microsoft.com
+
+# 其他 AI 服务
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,poe.com
+
+# Anthropic
+DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
+
+# Grok/X.ai
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,x.ai
+
+# 其他 AI 平台
+DOMAIN,api.githubcopilot.com
+DOMAIN,api.groq.com
+DOMAIN,api.together.xyz
+DOMAIN,console.groq.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grazie.aws.intellij.net
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,sora.com
+
+# GeoSite 规则（注意：原文有拼写错误已修正）
 geosite,category-ai-chat-!cn
-geostie,category-ai-!cn
+geosite,category-ai-!cn
