@@ -17,6 +17,15 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
+DOMAIN,www.gstatic.com
+DOMAIN,fonts.gstatic.com
+DOMAIN,lh3.googleusercontent.com
+DOMAIN,signaler-pa.clients6.google.com
+DOMAIN,waa-pa.clients6.google.com
+DOMAIN-SUFFIX,googleapis.com 
+DOMAIN-SUFFIX,google.com 
+DOMAIN-SUFFIX,googleusercontent.com 
+DOMAIN-SUFFIX,gstatic.com
 
 # OpenAI 相关
 DOMAIN-SUFFIX,groq.com
