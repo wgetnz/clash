@@ -1,0 +1,22 @@
+# HuggingFace 主域名
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+
+# HuggingFace CDN（大文件下载）
+DOMAIN-SUFFIX,cdn-lfs.huggingface.co
+DOMAIN-SUFFIX,cdn-lfs.hf.co
+DOMAIN-SUFFIX,cdn-lfs-us-1.hf.co
+DOMAIN-SUFFIX,cdn-lfs-eu-1.hf.co
+
+# Xet 存储后端（新一代大文件传输）
+DOMAIN-SUFFIX,xethub.com
+DOMAIN-SUFFIX,xethub.hf.co
+
+# HuggingFace Spaces（在线 demo/应用）
+DOMAIN-SUFFIX,hf.space
+
+# HuggingFace API / CI
+DOMAIN-SUFFIX,hub-ci.huggingface.co
+
+# 关键词匹配（hf-mirror 镜像站）
+DOMAIN-KEYWORD,huggingface
