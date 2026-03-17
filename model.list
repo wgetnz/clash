@@ -1,0 +1,107 @@
+# ==============================
+# 模型下载专用规则
+# ==============================
+
+# ---------- HuggingFace ----------
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+# CDN 大文件下载
+DOMAIN-SUFFIX,cdn-lfs.huggingface.co
+DOMAIN-SUFFIX,cdn-lfs.hf.co
+DOMAIN-SUFFIX,cdn-lfs-us-1.hf.co
+DOMAIN-SUFFIX,cdn-lfs-eu-1.hf.co
+# GCP CDN（来自 Google Cloud 的流量）
+DOMAIN-SUFFIX,us.gcp.cdn.hf.co
+# Xet 存储后端（新一代大文件传输，替代 hf_transfer）
+DOMAIN-SUFFIX,xethub.com
+DOMAIN-SUFFIX,xethub.hf.co
+DOMAIN-SUFFIX,cas-bridge.xethub.hf.co
+DOMAIN-SUFFIX,cas-server.xethub.hf.co
+DOMAIN-SUFFIX,transfer.xethub.hf.co
+# Cloudflare R2 存储（hf_transfer 走此域名下载）
+DOMAIN-SUFFIX,r2.cloudflarestorage.com
+# Spaces & CI
+DOMAIN-SUFFIX,hf.space
+DOMAIN-SUFFIX,api.hf.space
+DOMAIN-SUFFIX,hub-ci.huggingface.co
+# 数据集服务
+DOMAIN-SUFFIX,datasets-server.huggingface.co
+# hf-mirror 镜像站 & 关键词兜底
+DOMAIN-KEYWORD,huggingface
+
+# ---------- Meta LLaMA 官方直连下载 ----------
+# 通过邮件获取签名 URL 下载原始权重时走此域名
+# 各版本子域名均在此后缀下，如 llama3-1.llamameta.net / llama3-2-lightweight.llamameta.net
+DOMAIN-SUFFIX,llamameta.net
+DOMAIN-SUFFIX,llama.com
+
+# ---------- ModelScope（魔搭社区）----------
+# 阿里达摩院模型平台，与 HuggingFace 完全独立
+DOMAIN-SUFFIX,modelscope.cn
+DOMAIN-SUFFIX,modelscope.ai
+
+# ---------- OpenCSG（开放传神）----------
+# 国内企业级 HuggingFace 替代，有独立模型托管
+DOMAIN-SUFFIX,opencsg.com
+
+# ---------- 魔乐社区（Modelers / 昇思 MindSpore）----------
+# 华为旗下模型社区，独立托管
+DOMAIN-SUFFIX,modelers.cn
+
+# ---------- Ollama ----------
+# 模型注册表 & 官网
+DOMAIN-SUFFIX,ollama.com
+DOMAIN-SUFFIX,registry.ollama.ai
+
+# ---------- Civitai（Stable Diffusion 模型社区）----------
+DOMAIN-SUFFIX,civitai.com
+DOMAIN-SUFFIX,civitai.green
+DOMAIN-SUFFIX,image.civitai.com
+
+# ---------- Stability AI ----------
+DOMAIN-SUFFIX,stability.ai
+
+# ---------- Replicate（云端模型运行/下载）----------
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,replicate.delivery
+DOMAIN-SUFFIX,tjzk.replicate.delivery
+
+# ---------- PyTorch Hub ----------
+DOMAIN-SUFFIX,pytorch.org
+DOMAIN-SUFFIX,download.pytorch.org
+
+# ---------- NVIDIA NGC（预训练模型目录）----------
+DOMAIN-SUFFIX,ngc.nvidia.com
+DOMAIN-SUFFIX,catalog.ngc.nvidia.com
+DOMAIN-SUFFIX,api.ngc.nvidia.com
+
+# ---------- Weights & Biases（模型实验追踪/下载）----------
+DOMAIN-SUFFIX,wandb.ai
+DOMAIN-SUFFIX,api.wandb.ai
+
+# ---------- GitHub LFS（大量模型托管在此）----------
+# GitHub 模型文件走 objects.githubusercontent.com
+DOMAIN-SUFFIX,objects.githubusercontent.com
+DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
+
+# ---------- LM Studio ----------
+DOMAIN-SUFFIX,lmstudio.ai
+
+# ---------- Together AI（模型推理/下载）----------
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,together.xyz
+
+# ---------- Mistral AI（模型下载）----------
+DOMAIN-SUFFIX,models.mistral.ai
+DOMAIN-SUFFIX,dl.mistral.ai
+
+# ---------- Cohere ----------
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,cohere.ai
+
+# ---------- Roboflow（计算机视觉模型）----------
+DOMAIN-SUFFIX,roboflow.com
+
+# ---------- Kaggle（模型/数据集下载）----------
+DOMAIN-SUFFIX,kaggle.com
+DOMAIN-SUFFIX,storage.googleapis.com
