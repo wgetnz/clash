@@ -1,5 +1,3 @@
 DOMAIN-SUFFIX,mypikpak.com
 DOMAIN-SUFFIX,mypikpak
 DOMAIN-SUFFIX,pikpak
-# 内网磁力下载机，磁力/BT 协议无法按域名识别，整机流量归入大流量分组
-SRC-IP,192.168.0.111
