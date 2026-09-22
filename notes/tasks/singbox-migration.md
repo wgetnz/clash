@@ -22,6 +22,11 @@
 - 中国 IPv6 3411 条展开规则：零缺失。
 - 官方 sing-box 1.14.1 `check`：通过。
 
+## 上线（2026-09-22）
+
+- main 已推送；`maxsub` v21 与 `subweb` 前端已部署，生产 URL 生成的配置通过官方 sing-box 1.14.1 `check`。
+- `ipv6-cn-singbox.list` 的自动同步工作流会持续改动扁平规则数（本次 3411 → 3406，CIDR 聚合），对比时以当前 main 为准。
+
 ## 后续待办
 
 - 上游 sing-geosite 分类变更时重新生成 `ai-geosite-singbox.list` 并复跑等价性检查。
