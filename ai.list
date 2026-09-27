@@ -79,6 +79,13 @@ DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,x.ai
 
+
+# muse
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,museai.com
+DOMAIN-SUFFIX,ecto1.ai
+
+
 # 其他 AI 平台
 DOMAIN,api.githubcopilot.com
 DOMAIN,api.groq.com
